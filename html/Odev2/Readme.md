@@ -1,5 +1,5 @@
 # Odev 2
 
 Liste elemanlarını ve block ve inline elemanları kullanma 
-
-[ScreenShot](pictures/screenshot.PNG)
+## Page ScreenShot
+![ScreenShot](/html/Odev2/pictures/screenshot.PNG)
