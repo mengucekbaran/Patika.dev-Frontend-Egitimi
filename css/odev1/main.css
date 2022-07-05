@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  /* metin için varsayılan boyutu 16 pikselden 10 piksele düşürür*/
+  font-size: 62.5% ;
+  text-align: center ;
+}
+h1 {
+  font-size: 2.2em;
+}
+h2 {
+  font-size: 2.0em;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.6em;
+}
+h5 {
+  font-size: 1.4em;
+}
+p {
+  font-size: 1em;
+  margin: 0;
+}
+.btn{
+  margin-right: 0.5em;
+}
+/* Header
+-------------------------------------------------------------------------*/
+.logo{
+  font-size:1em;
+  margin-top: 10em;
+}
+/* Header End
+-------------------------------------------------------------------------*/
+/* Content
+-------------------------------------------------------------------------*/
+.main-content{
+  font-size:1.2em;
+  background-color:#EFF7F6;
+  width: 63.3em;
+  margin:auto;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
+}
+.box{
+  width: 100%;
+  
+}
+.input{
+  width: 30%;
+}
+/* Content End
+-------------------------------------------------------------------------*/
+/* Footer
+-------------------------------------------------------------------------*/
+.footer{
+  font-size:1.2em;
+  width: 63.3em;
+  margin:auto;
+}
+/* class isminde box içeren divlerin hepsi */
+div[class*="box"]{
+  text-align: center;
+  height: 5.86em ;
+}
+.boxs{
+  float: left;
+  padding: 0.5em 0;
+}
+
+.box1{
+  background-color: #7EE5DA;
+  width:25.2em;
+  margin-top: 0.1em;
+  margin-right: 0.1em ;
+}
+.box2{
+  background-color: #70CCC2;
+  width:12.6em;
+  margin-top: 0.1em;
+  margin-right: 0.1em ;
+}
+.box3{
+  background-color: #62B3AA;
+  width:25.2em;
+  margin-top: 0.1em;
+  margin-right: 0.1em ;
+}
+/* Footer End
+-------------------------------------------------------------------------*/
+
+/* Formlar
+-------------------------------------------------------------------------*/
+input.text {
+  padding: 3px;
+  border: 1px solid #999999;
+}
+
+/* Tablolar
+-------------------------------------------------------------------------*/
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td {
+  text-align: left;
+  font-weight: normal;
+}
